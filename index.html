@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practise</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            height: 100vh;
+            width: 100vw;
+            color: white;
+            background-color: black;
+        }
+        .item{
+            display: flex;
+            flex-direction: column;
+            height: auto;
+            width:auto;
+            padding: 20vh 2vw;
+            border: 2px solid white;
+            background-color: gray;
+            box-shadow: 1px 2px 8px white;
+        }
+        h1,input,button{
+            padding: 2vh 2vw;
+            margin: 1vh 0;
+        }
+        button{
+            background-color: rgb(112, 102, 102);
+            color: white;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="item">
+    <h1>Check the prime number</h1>
+    <input type="text" placeholder="Enter number any number" id="num">
+    <input type="text" id="result">
+    <button class="btn">calculate</button>
+    </div>
+</div>
+</body>
+    <script src="./script.js"></script>
+</html>
